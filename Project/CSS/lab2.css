@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #cfbdaf;
+    font-family: Calibri;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+#top_menu{
+    width: 80% - 10px;
+    margin: 0% 10%;
+    height: 25px;
+    background-color: #9b98ad;
+    padding: 5px 10px;
+}
+
+#top_menu a{
+    display: inline;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+#top_menu a:hover{
+    background-color: #cfbdaf;
+}
+
+#top_menu p{
+    display: inline;
+    height: 20px;
+    margin: 10px;
+    border-left: 1px solid black;
+}
+
+#heading{
+    width: 80%;
+    margin: 0% 10%;
+    height: 150px;
+    background-color: #bbb8d7;
+    display: flex;
+    align-items: center;
+}
+
+#heading div{
+    margin-left:10px;
+}
+
+#main_part{
+    background-color: #fff;
+    width: 80%;
+    margin: 0% 10%;
+    min-height: 80vh;
+    height: 100%;
+    display: flex;
+}
+
+#left_menu{
+    background: fff;
+    width: 25%;
+    margin-left: 5px;
+    display: block;
+}
+
+#left_menu a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    background: #cfbdaf;
+}
+
+#left_menu a:hover{
+    background-color: #bbb8d7;
+}
+
+#left_menu ul li ul{
+    display: none;
+    background-color: #f5f5f5;
+    padding: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+#left_menu ul li:hover ul{
+    display: block;
+}
+
+#left_menu p::before{
+    display: inline-flex;
+    content: "";
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    border-radius: 1em;
+    background: rgb(199, 190, 190);
+    margin-right: .5em;
+    border: 1px solid black;
+}
+
+#left_menu a::before{
+    display: inline-flex;
+    content: "";
+    width: .5em;
+    height: .5em;
+    border-radius: 1em;
+    background: black;
+    margin-right: .5em;
+}
+
+#left_menu p{
+    padding: 10px;
+}
+
+#content{
+    display: block;
+    padding: 10px;
+    padding-left: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+#content h1,h5,p{
+    padding: 5px 0;
+}
+
+#button_for_read_more{
+    background-color: #9892c2;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#button_for_read_more:hover{
+    background-color: #cfbdaf;
+    border: 2px solid #000;
+}
+
+#content p{
+    font-size: 14px;
+}
+
+form div{
+    display: flex;
+    border: 1px solid black;
+}
+
+label {
+    width: 30%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+#calculate {
+    padding: 5px;
+    width: 100%;
+}
+
+#back_to_input {
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.jump_button {
+    width: 100%;
+    padding: 10px;
+    background-color: #cfbdaf;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 6px 10px;
+    text-align: center;
+    
+}
+
+.jump_button:hover{
+    background-color: #bbb8d7;
+}
+
+
+.delete-btn, .edit-btn {
+    background-color: #cfbdaf;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    background-color: #bbb8d7;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
